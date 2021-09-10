@@ -1,0 +1,12 @@
+.idea
+.*project
+*.pyc
+*$py.class
+log.html
+report.html
+output.xml
+*.log
+Pipfile
+Pipfile.lock
+screenshots/*
+
