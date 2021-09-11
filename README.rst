@@ -49,10 +49,9 @@ Note :  TEST_CASE_2/'Verify Login Without Username And Password' is failing due 
 Framework Enhancement
 =====================
 
-1. Tests could be executed by setting ${browser} value and adding python library to get different browser driver path
-   Chrome browser is used by default.
+1. Tests can be executed on different browsers by setting ${browser} value and adding python library to get different browser driver path. Chrome browser is used by default.
 2. Page object model can be implemented.
-3. Generic keyword could be added to select specific item from search result.
+
 
 
 
