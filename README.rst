@@ -45,7 +45,7 @@ execute 'testrun.sh' file from EbayRobotTests directory to install all required 
 
 Test Results
 -------------
-Result logs and reports can be found under output folder
+Result logs and reports can be found under output folder.
 Screenshots from the failed tests can be found in screenshots folder.
 
 Note :  TEST_CASE_2/'Verify Login Without Username And Password' is failing due to browser captcha.
