@@ -6,7 +6,6 @@ This Framework is designed to automate tests for eBay shopping site.
 Test cases
 ==========
 
-
 Test case files are located in eBayWebTests.robot testsuite file under ebay-web-tests directory.
 Common robot keywords and locators are located under resources folder.
 Common python library to get driver path is located under library folder.
@@ -31,7 +30,9 @@ pip install -r requirements.txt
 OR
 
 execute 'testrun.sh' file from EbayRobotTests directory to install all required libraries and execute all tests
-
+To Execute testrun.sh file :
+1. Change the file permission : chmod u+x testrun.sh
+2. Execute testrun.sh file :    ./testrun.sh
 
 Running tests
 -------------
@@ -41,6 +42,11 @@ robot --loglevel DEBUG  --outputdir  outputs
 OR
 
 execute 'testrun.sh' file from EbayRobotTests directory to install all required libraries and execute all tests
+
+Test Results
+-------------
+Result logs and reports can be found under output folder
+Screenshots from the failed tests can be found in screenshots folder.
 
 Note :  TEST_CASE_2/'Verify Login Without Username And Password' is failing due to browser captcha.
         Test can be passed by introducing implicit time delay and manually resolving captcha
