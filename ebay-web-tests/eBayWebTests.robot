@@ -7,7 +7,7 @@ Test Teardown  Close All Browsers
 Force Tags      eBay
 
 *** Variables ***
-${itemToSerach}=    Bike
+${itemToSearch}=    Bike
 
 *** Keywords ***
 Ebay Test Setup
@@ -18,7 +18,7 @@ Ebay Test Setup
 Verify Add To Cart Scenario
     [Documentation]      This test case will verify item added to cart is displayed in the cart.
     [Tags]                TEST_CASE_1
-    Search For Item     ${itemToSerach}
+    Search For Item     ${itemToSearch}
     Select The First Item
     Add Item To Cart
     Verify Element In The Cart

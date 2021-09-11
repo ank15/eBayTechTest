@@ -24,7 +24,7 @@ Select The First Item
     [Documentation]         This keyword selects first item from the search result on ebay homepage
     ${itemTextForFirstItem}      Get Text         ${uiSearchFirstItem}
     set test variable      ${itemTextForFirstItem}
-    click element       ${uisearchFirstItem}
+    click element       ${uiSearchFirstItem}
     wait until element is visible    ${buttonAddToCart}
 
 Add Item To Cart
